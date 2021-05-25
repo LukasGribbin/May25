@@ -1,0 +1,26 @@
+{
+    "compilerOptions": {
+        "charset": "utf8",
+        "allowSyntheticDefaultImports": true,
+        "allowUnreachableCode": true,
+        "alwaysStrict": true,
+        "module": "commonjs",
+        "noImplicitAny": true,
+        "strictFunctionTypes": true,
+        "noImplicitThis": true,
+        "strictNullChecks": false,
+        "target": "es2020",
+        "declaration": false,
+        "noEmitOnError": true,
+        "sourceMap": true,
+        "jsx": "react",
+        "lib": ["dom", "es2020"],
+        "allowJs": false
+    },
+    "include": [
+        "src/app.tsx", 
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}
